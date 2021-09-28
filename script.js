@@ -29,7 +29,7 @@ function colorClickEvent(e) {
     e.target.classList.add('active');
 }
 
-function mouseDownEvent() {
+function mouseDownEvent(e) {
     canDraw = true;
     mouseX = e.pageX - screen.offsetLeft;
     mouseY = e.pageY - screen.offsetTop;
